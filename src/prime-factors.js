@@ -1,14 +1,16 @@
 export default n => {
   let primes = []
-  if(n > 1) {
-    while(n % 2 == 0) {
-      primes.push(2)
-      n/=2
-    }
+  let m = 2
 
-    if(n > 1) {
-      primes.push(n)
+  if(n > 1) {
+    while(n % m == 0) {
+      primes.push(m)
+      n/=m
     }
+  }
+
+  if(n > 1) {
+    primes.push(n)
   }
   return primes
 }
