@@ -19,4 +19,9 @@ describe('prime factors', () => {
   it('composite number that containing diff factors', () => {
     expect(factorsOf(6)).toEqual([2, 3])
   })
+
+  it('big prime number', () => {
+    let value = 0x7fffffff
+    expect(factorsOf(value)).toEqual([value])
+  })
 })
