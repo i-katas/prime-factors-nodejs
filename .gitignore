@@ -1,0 +1,12 @@
+.idea
+*.iml
+classes
+out
+target
+
+.gradle
+build
+
+*.swp
+node_modules
+dist
