@@ -10,8 +10,5 @@ export default n => {
     m++
   }
 
-  if(n > 1) {
-    primes.push(n)
-  }
   return primes
 }
