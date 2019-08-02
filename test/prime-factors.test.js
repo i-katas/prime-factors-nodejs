@@ -12,6 +12,7 @@ describe('prime factors', () => {
 
   it('composite number that containing same factors', () => {
     expect(factorsOf(4)).toEqual([2, 2])
+    expect(factorsOf(8)).toEqual([2, 2, 2])
   })
 
   it('composite number that containing diff factors', () => {
