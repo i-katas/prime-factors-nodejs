@@ -1,5 +1,7 @@
+import factorsOf from 'prime-factors'
+
 describe('prime factors', () => {
-  it('environment test', () => {
-    expect(true).toBe(true)
+  it('no factors', () => {
+    expect(factorsOf(1)).toEqual([])
   })
 })
